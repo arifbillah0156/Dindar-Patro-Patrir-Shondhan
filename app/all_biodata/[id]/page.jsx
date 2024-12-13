@@ -18,6 +18,7 @@ export default async function SingleBiodata({ params }) {
     personalDetails,
     familyDetails,
     partnerDetails,
+    address,
   } = fullData;
 
   return (
@@ -54,10 +55,7 @@ export default async function SingleBiodata({ params }) {
             <hr />
             <Text text={"বিভাগ"} value={division} />
             <hr />
-            <Text
-              text={"ঠিকানা"}
-              value={"ঠিকানা পেতে আমাদের ফেসবুক পেইজে মেসেজ দিন।"}
-            />
+            <Text text={"ঠিকানা"} value={address} />
             <hr />
             <Text
               text={"যোগাযোগের তথ্য"}
