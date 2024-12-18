@@ -6,7 +6,7 @@ export default function SelectMarriedStatus({ all }) {
       {all ? <option>সকল</option> : ""}
       <option value="অবিবাহিত">অবিবাহিত</option>
       <option value="ডিভোর্সড">ডিভোর্সড</option>
-      <option value="বিধবা">বিধবা</option>
+      <option value="বিধবা/বিপত্নীক">বিধবা/বিপত্নীক</option>
     </>
   );
 }
