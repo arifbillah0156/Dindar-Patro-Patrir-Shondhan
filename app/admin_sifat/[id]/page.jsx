@@ -46,41 +46,32 @@ export default async function SingleBiodata({ params }) {
             <hr />
             <Text text={"নাম"} value={name} />
             <hr />
-           <Text text={"বয়স"} value={age} />
+            <Text text={"বয়স"} value={age} />
             <hr />
             <Text text={"উচ্চতা"} value={height} />
             <hr />
-
-  <Text text={"বৈবাহিক অবস্থা"} value={marriedStatus} />
+            <Text text={"বৈবাহিক অবস্থা"} value={marriedStatus} />
             <hr />
-
-     <Text text={"শিক্ষাগত যোগ্যতা"} value={education} />
+            <Text text={"শিক্ষাগত যোগ্যতা"} value={education} />
             <hr />
-
-<Text text={"পেশা"} value={occupation} />
+            <Text text={"পেশা"} value={occupation} />
             <hr />
             <Text text={"মাসিক ইনকাম"} value={monthlyIncome} />
             <hr />
-
-<Text text={"ব্যাক্তিগত তথ্য"} value={personalDetails} />
+            <Text text={"ব্যাক্তিগত তথ্য"} value={personalDetails} />
             <hr />
-
-  <Text text={"পারিবারিক তথ্য"} value={familyDetails} />
+            <Text text={"পারিবারিক তথ্য"} value={familyDetails} />
             <hr />
-
- <Text text={"বিভাগ"} value={division} />
+            <Text text={"বিভাগ"} value={division} />
             <hr />
             <Text text={"ঠিকানা"} value={address} />
             <hr />
-
- <Text text={"যেমন জীবনসঙ্গী চাই"} value={partnerDetails} />
+            <Text text={"যেমন জীবনসঙ্গী চাই"} value={partnerDetails} />
             <hr />
-
-<Text text={"জন্ম নিবন্ধন নাম্বার"} value={birthID} />
+            <Text text={"জন্ম নিবন্ধন নাম্বার"} value={birthID} />
             <hr />
             <Text text={"জন্ম তারিখ"} value={birthDate} />
-            <hr />        
-  
+            <hr />
             <Text text={"মোবাইল নাম্বার"} value={mobile} />
             <hr />
             <Text text={"ফেসবুক"} value={fbLink} />
