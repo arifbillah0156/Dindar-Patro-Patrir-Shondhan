@@ -37,7 +37,7 @@ export default async function SingleBiodata({ params }) {
           <h1 className="text-2xl font-bold text-center mb-4 underline underline-offset-8 decoration-double text-gray-900">
             সম্পূর্ণ বায়োডাটা
           </h1>
-          <div className="space-y-4">
+          <div className="">
             {" "}
             <hr />
             <Text text={"তারিখ"} value={date} />
